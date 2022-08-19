@@ -1,4 +1,7 @@
-# Lifted Initiative Project Starter
+#Lifted Initiative Talib Project
+##Block Explorer
+
+##Project Starter
 
 This is a project bootstrapped with [`@vitejs/app`](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) (`react-ts`), added with [Chakra UI](https://chakra-ui.com) and [TypeScript](https://www.typescriptlang.org) setup.
 
