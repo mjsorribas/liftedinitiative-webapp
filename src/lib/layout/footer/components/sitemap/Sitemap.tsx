@@ -1,20 +1,20 @@
-import {
-    Box,
-    Container,
-    Link,
-    SimpleGrid,
-    Stack,
-    Text,
-    useColorModeValue,
-} from '@chakra-ui/react';
+import { Link, Stack } from "@chakra-ui/react";
 
 export default function Sitemap() {
-    return (
-       <Stack mr={6} ml={6} align={'flex-start'}>
-        <Link href={'#'}>About Lifted Initiative</Link>
-        <Link href={'#'}>About the protocol</Link>
-        <Link href={'#'}>Documentation for developers</Link>
-        <Link href={'#'}>Code of Conduct</Link>
-      </Stack>
-    )
+  return (
+    <Stack mr={6} ml={6} align="flex-start">
+      <Link href="https://theliftedinit.org/aboutus">
+        About Lifted Initiative
+      </Link>
+      <Link href="https://theliftedinit.org/aboutprotocol">
+        About the protocol
+      </Link>
+      <Link href="https://theliftedinit.org/documentationfordevs">
+        Documentation for developers
+      </Link>
+      <Link href="https://theliftedinit.org/codeofconduct">
+        Code of Conduct
+      </Link>
+    </Stack>
+  );
 }

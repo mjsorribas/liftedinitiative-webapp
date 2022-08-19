@@ -7,10 +7,12 @@ import {
   useColorModeValue,
   GridItem,
 } from "@chakra-ui/react";
+
+import Logo from "../../../components/logo/Logo";
+
+import Copyright from "./copyright/Copyright";
 import Sitemap from "./sitemap/Sitemap";
 import SocialLinks from "./sociallinks/SocialLinks";
-import Logo from "../../../components/logo/Logo";
-import Copyright from "./copyright/Copyright";
 import TermsAndConditions from "./termsandconditions/TermsAndConditions";
 
 export default function Footer() {
