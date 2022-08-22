@@ -1,5 +1,7 @@
 import { Image, Box, Text } from "@chakra-ui/react";
 
+import { theme } from "lib/styles/customTheme";
+
 const LOGOSVG = () => {
   return (
     <Box display="flex" alignItems="center">
@@ -9,7 +11,15 @@ const LOGOSVG = () => {
         src="/assets/lifted.svg"
         title="The Lifted initiative"
       />
-      <Text fontSize="sm">THELIFTEDINITIATIVE</Text>
+      <Text color={theme.colors.cream} fontSize="1.168rem" fontWeight={300}>
+        THE
+      </Text>
+      <Text color={theme.colors.cream} fontSize="1.168rem" fontWeight={700}>
+        LIFTED
+      </Text>
+      <Text color={theme.colors.cream} fontSize="1.168rem" fontWeight={300}>
+        INITIATIVE
+      </Text>
     </Box>
   );
 };
