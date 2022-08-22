@@ -4,11 +4,12 @@ import {
   SimpleGrid,
   Stack,
   Divider,
-  useColorModeValue,
   GridItem,
+  position,
 } from "@chakra-ui/react";
 
-import Logo from "../../../components/logo/Logo";
+import Logo from "lib/components/logo/Logo";
+import { theme } from "lib/styles/customTheme";
 
 import Copyright from "./copyright/Copyright";
 import Sitemap from "./sitemap/Sitemap";
@@ -18,12 +19,15 @@ import TermsAndConditions from "./termsandconditions/TermsAndConditions";
 export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
-      color={useColorModeValue("gray.700", "gray.200")}
+      as="footer"
+      bg={theme.colors.brown}
+      color={theme.colors.cream}
       alignContent="center"
       w="100%"
+      height={{ sm: "600px", md: "400px" }}
+      position="relative"
     >
-      <Container as={Stack} maxW="full" py={10}>
+      <Container as={Stack} maxW="full" py={10} top="25%" position="absolute">
         <SimpleGrid
           templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }}
           gap={10}
