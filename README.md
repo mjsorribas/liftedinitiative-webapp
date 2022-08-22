@@ -48,3 +48,4 @@ Also we can fix the code running the same command with a --fix parameter.
   - [avoid manual import](https://vitejs.dev/guide/features.html#jsx)
 - [Chakra UI](https://chakra-ui.com/)
 - [TypeScript](https://www.typescriptlang.org)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
