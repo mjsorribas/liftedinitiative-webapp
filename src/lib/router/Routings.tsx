@@ -9,6 +9,7 @@
  */
 
 import { Routes, Route } from "react-router-dom";
+
 import Page404 from "lib/pages/404";
 
 import { routes } from "./routes";
