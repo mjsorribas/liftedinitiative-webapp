@@ -1,15 +1,10 @@
 import { Grid } from "@chakra-ui/react";
-
-import CTASection from "./components/CTASection";
-import SomeImage from "./components/SomeImage";
-import SomeText from "./components/SomeText";
+import BlockList from "../../components/blocklist/BlockList";
 
 const Home = () => {
   return (
     <Grid gap={4}>
-      <SomeText />
-      <SomeImage />
-      <CTASection />
+      <BlockList />
     </Grid>
   );
 };
